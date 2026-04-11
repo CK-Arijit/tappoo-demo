@@ -4004,8 +4004,8 @@
     {
       "type": "frame",
       "id": "jpASl",
-      "x": 1400,
-      "y": 0,
+      "x": 3335,
+      "y": -1172,
       "name": "Component / Status Bar",
       "reusable": true,
       "width": 390,
@@ -4070,8 +4070,8 @@
     {
       "type": "frame",
       "id": "cyYGN",
-      "x": 1400,
-      "y": 110,
+      "x": 3335,
+      "y": -1062,
       "name": "Component / Bottom Nav",
       "reusable": true,
       "width": 390,
@@ -4297,6 +4297,1636 @@
                   "fontSize": 10,
                   "fontWeight": "700",
                   "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "yJjIQ",
+      "x": 1910,
+      "y": 0,
+      "name": "10 Splash Screen",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#2AB1EA",
+            "position": 0
+          },
+          {
+            "color": "#145EAE",
+            "position": 0.72
+          },
+          {
+            "color": "#0F438E",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "cISnt",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status10",
+          "descendants": {
+            "aQqxx": {
+              "fill": "#FFFFFF"
+            },
+            "EAFf8": {
+              "fill": "#FFFFFF"
+            },
+            "J4EQ3": {
+              "fill": "#FFFFFF99"
+            },
+            "baxMh": {
+              "fill": "#FFFFFF"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "banq5",
+          "name": "content10",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            18,
+            24,
+            28,
+            24
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "4cE1O",
+              "name": "hero10",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "etOyo",
+                  "name": "logo10",
+                  "width": 168,
+                  "height": 168,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 84
+                },
+                {
+                  "type": "frame",
+                  "id": "YyRyJ",
+                  "name": "birds10",
+                  "width": 110,
+                  "height": 52,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-birds.png",
+                    "mode": "fit"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "ZKeWJ",
+                  "name": "title10",
+                  "fill": "#FFFFFF",
+                  "content": "Bula",
+                  "fontFamily": "Catamaran",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "UV4v0",
+                  "name": "sub10",
+                  "fill": "#E7F7FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Welcome to Tappoo Frequent Shopper. Scan, earn, redeem and keep your rewards journey beautifully in sync.",
+                  "lineHeight": 1.45,
+                  "textAlign": "center",
+                  "fontFamily": "Open Sans",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z6AkQ",
+              "name": "bottom10",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tkf85",
+                  "name": "cta101",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 22,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uIas6",
+                      "name": "cta101Text",
+                      "fill": "$brand-deep",
+                      "content": "Create account",
+                      "fontFamily": "Catamaran",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JZzE3",
+                  "name": "cta102",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF14",
+                  "cornerRadius": 22,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF55"
+                  },
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NU293",
+                      "name": "cta102Text",
+                      "fill": "#FFFFFF",
+                      "content": "Sign in",
+                      "fontFamily": "Catamaran",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xDHzD",
+                  "name": "foot10",
+                  "fill": "#D9F5FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Designed for iOS and Android loyalty members across the Tappoo retail network.",
+                  "textAlign": "center",
+                  "fontFamily": "Crimson Text",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pJhGA",
+      "x": 2353,
+      "y": 0,
+      "name": "11 Create Account - Personal Information",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F6FCFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "WjFKG",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status11"
+        },
+        {
+          "type": "frame",
+          "id": "nM42J",
+          "name": "content11",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            6,
+            20,
+            20,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "3DIjj",
+              "name": "top11",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uqSG3",
+                  "name": "brand11",
+                  "width": 44,
+                  "height": 44,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 22
+                },
+                {
+                  "type": "text",
+                  "id": "nVWvb",
+                  "name": "title11",
+                  "fill": "$text-strong",
+                  "content": "Create Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "MPvJm",
+                  "name": "sub11",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Start your TFS membership application and we will notify you once the account is approved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FXROL",
+              "name": "stepRow1",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Tv8fH",
+                  "name": "step1A",
+                  "width": "fill_container",
+                  "fill": "$brand-deep",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WOwFF",
+                      "name": "step1AT",
+                      "fill": "#DFF7FF",
+                      "content": "Step 1",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mWCUS",
+                      "name": "step1AL",
+                      "fill": "#FFFFFF",
+                      "content": "Personal Information",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ln2FG",
+                  "name": "step1B",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jwh3R",
+                      "name": "step1BT",
+                      "fill": "$text-soft",
+                      "content": "Step 2",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1dGjv",
+                      "name": "step1BL",
+                      "fill": "$text-strong",
+                      "content": "Contact Information",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vHj6P",
+              "name": "form1",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WFxx6",
+                  "name": "f1t",
+                  "fill": "$text-strong",
+                  "content": "Personal Information",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "QGTFi",
+                  "name": "f1m",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Complete the member identity details before contact verification.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "NOAOv",
+                  "name": "r1a",
+                  "width": "fill_container",
+                  "fill": "#F8FCFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MRrTG",
+                      "name": "r1aT",
+                      "fill": "$text-strong",
+                      "content": "Title and First Name",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XPFrz",
+                      "name": "x",
+                      "fill": "$text-body",
+                      "content": "Select title and enter first name",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NodBk",
+                  "name": "r1b",
+                  "width": "fill_container",
+                  "fill": "#F8FCFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Njmee",
+                      "name": "r1bT",
+                      "fill": "$text-strong",
+                      "content": "Middle Name and Last Name",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zmb4l",
+                      "name": "x2",
+                      "fill": "$text-body",
+                      "content": "Enter middle name and last name",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V25yH",
+                  "name": "r1c",
+                  "width": "fill_container",
+                  "fill": "#F8FCFF",
+                  "cornerRadius": 16,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": [
+                    10,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iLMMP",
+                      "name": "r1cT",
+                      "fill": "$text-strong",
+                      "content": "DOB and Marital Status",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XX4q9",
+                      "name": "x3",
+                      "fill": "$text-body",
+                      "content": "DD / MM / YYYY and marital status",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K6ANu",
+              "name": "hint1",
+              "width": "fill_container",
+              "fill": "#F4FBFF",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oiewJ",
+                  "name": "hint1T",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Step 2 verifies both email and phone with code, then registration is completed.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1sS6s",
+      "x": 4455,
+      "y": 0,
+      "name": "12 Sign In",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "MSlzv",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status12"
+        },
+        {
+          "type": "frame",
+          "id": "0j83S",
+          "name": "content12",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            6,
+            20,
+            20,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "1Lmjj",
+              "name": "top12",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CuXhS",
+                  "name": "brand12",
+                  "width": 60,
+                  "height": 60,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 30
+                },
+                {
+                  "type": "text",
+                  "id": "yNzn5",
+                  "name": "title12",
+                  "fill": "$text-strong",
+                  "content": "Sign In",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "jDrOg",
+                  "name": "sub12",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Use your email or phone number to receive an OTP and continue to your TFS account.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "O4I3i",
+              "name": "method12",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eOIV0",
+                  "name": "meth121",
+                  "fill": "$brand-deep",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gDX1B",
+                      "name": "meth121Text",
+                      "fill": "#FFFFFF",
+                      "content": "Email",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vHf3z",
+                  "name": "meth122",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": [
+                    8,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "3nm9a",
+                      "name": "meth122Text",
+                      "fill": "$text-body",
+                      "content": "Phone",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hQA7j",
+              "name": "input12",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LHgf3",
+                  "name": "inputTitle12",
+                  "fill": "$text-strong",
+                  "content": "Email or Phone Number",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tBad6",
+                  "name": "inputHint12",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "name@example.com or mobile number",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DNqT7",
+              "name": "otp12",
+              "width": "fill_container",
+              "fill": "#E8F7FF",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Savhk",
+                  "name": "otpTitle12",
+                  "fill": "$text-strong",
+                  "content": "Enter OTP",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "9zYzb",
+                  "name": "otpHint12",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Receive an OTP over email or phone. Wrong code shows an error toast. Correct code shows success and continues.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "TzyzD",
+                  "name": "otpRow12",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hTeYH",
+                      "name": "box121",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 2,
+                        "fill": "$brand-deep"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Oc0aI",
+                      "name": "box122",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-soft"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "odc0U",
+                      "name": "box123",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-soft"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l79Ls",
+                      "name": "box124",
+                      "width": "fill_container",
+                      "height": 52,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 16,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-soft"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "a2W0X",
+              "name": "resend12",
+              "fill": "$brand-deep",
+              "content": "Resend OTP",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "gwaba",
+              "name": "cta12",
+              "width": "fill_container",
+              "fill": "$brand-deep",
+              "cornerRadius": 22,
+              "padding": [
+                16,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hPFlT",
+                  "name": "cta12Text",
+                  "fill": "#FFFFFF",
+                  "content": "Verify and continue",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3oMru",
+              "name": "toast12",
+              "width": "fill_container",
+              "fill": "#E9F9F4",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w5L6c",
+                  "name": "toast12Text",
+                  "fill": "$success",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "OTP sent successfully. Use the resend option if the code does not arrive.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Ubxcu",
+      "x": 2865,
+      "y": 0,
+      "name": "12 Create Account - Contact Information",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F6FCFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "GBTJy",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status11"
+        },
+        {
+          "type": "frame",
+          "id": "wFIER",
+          "name": "content11",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            6,
+            20,
+            20,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "xypZ3",
+              "name": "top11",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CqD9E",
+                  "name": "brand11",
+                  "width": 44,
+                  "height": 44,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 22
+                },
+                {
+                  "type": "text",
+                  "id": "FhjEj",
+                  "name": "title11",
+                  "fill": "$text-strong",
+                  "content": "Create Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "nzbQM",
+                  "name": "sub11",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Start your TFS membership application and we will notify you once the account is approved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W3Bcu",
+              "name": "stepRow2",
+              "width": "fill_container",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KMkJG",
+                  "name": "step2A",
+                  "width": "fill_container",
+                  "fill": "#EAF7FF",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "41imN",
+                      "name": "step2AT",
+                      "fill": "$brand-deep",
+                      "content": "Step 1",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7ScOp",
+                      "name": "step2AL",
+                      "fill": "$text-strong",
+                      "content": "Personal Information",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "f6JVa",
+                  "name": "step2B",
+                  "width": "fill_container",
+                  "fill": "$brand-deep",
+                  "cornerRadius": 18,
+                  "layout": "vertical",
+                  "gap": 3,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pLnry",
+                      "name": "step2BT",
+                      "fill": "#DFF7FF",
+                      "content": "Step 2",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "taXvi",
+                      "name": "step2BL",
+                      "fill": "#FFFFFF",
+                      "content": "Contact Information",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a0XQV",
+              "name": "form2",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JP84x",
+                  "name": "t2",
+                  "fill": "$text-strong",
+                  "content": "Contact Information",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "NJvc4",
+                  "name": "x",
+                  "fill": "$text-body",
+                  "content": "Verify channels with code before completion.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "IDocW",
+                  "name": "emailCard",
+                  "width": "fill_container",
+                  "fill": "#F8FCFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1sGM1",
+                      "name": "emailTitle",
+                      "fill": "$text-strong",
+                      "content": "Email Verification",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tj18h",
+                      "name": "emailMeta",
+                      "fill": "$text-body",
+                      "content": "Email address and verification code sent",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eATZH",
+                      "name": "emailBoxes",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lEU4G",
+                          "name": "e1",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "$brand-deep"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s8BeB",
+                          "name": "e2",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CDZGX",
+                          "name": "e3",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9Lbp2",
+                          "name": "e4",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HzOqa",
+                  "name": "phoneCard",
+                  "width": "fill_container",
+                  "fill": "#F8FCFF",
+                  "cornerRadius": 18,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fwaSO",
+                      "name": "phoneTitle",
+                      "fill": "$text-strong",
+                      "content": "Phone Verification",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b4rp0",
+                      "name": "phoneMeta",
+                      "fill": "$text-body",
+                      "content": "Phone number and verification code sent",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "47S8k",
+                      "name": "phoneBoxes",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "5z0WS",
+                          "name": "p1",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 2,
+                            "fill": "$brand-deep"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2xW8Z",
+                          "name": "p2",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HwLt0",
+                          "name": "p3",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uZesM",
+                          "name": "p4",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 14,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "$border-soft"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "7L4wc",
+              "name": "submit2",
+              "width": "fill_container",
+              "fill": "$brand-deep",
+              "cornerRadius": 22,
+              "padding": [
+                14,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t0Kgh",
+                  "name": "submit2T",
+                  "fill": "#FFFFFF",
+                  "content": "Complete Registration",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "W4UXj",
+      "x": 3335,
+      "y": 0,
+      "name": "13 Registration Pending",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F6FCFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "nEv0i",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status11"
+        },
+        {
+          "type": "frame",
+          "id": "EGN2r",
+          "name": "content11",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            6,
+            20,
+            20,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "9Ved4",
+              "name": "top11",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qybB8",
+                  "name": "brand11",
+                  "width": 44,
+                  "height": 44,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 22
+                },
+                {
+                  "type": "text",
+                  "id": "yjiuZ",
+                  "name": "title11",
+                  "fill": "$text-strong",
+                  "content": "Registration Status",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "hEabj",
+                  "name": "sub11",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We have received your TFS application and will update you once it is approved.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xNGGN",
+              "name": "pendingCard",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qCbLd",
+                  "name": "logo13",
+                  "width": 84,
+                  "height": 84,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 42
+                },
+                {
+                  "type": "text",
+                  "id": "NwzyS",
+                  "name": "title13",
+                  "fill": "$text-strong",
+                  "content": "Application Received",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "M2tTW",
+                  "name": "b13",
+                  "fill": "$text-body",
+                  "content": "Your application is under process.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u2Nyc",
+                  "name": "b14",
+                  "fill": "$text-body",
+                  "content": "Once approved you will be notified by email.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "46DrN",
+                  "name": "b15",
+                  "fill": "$brand-deep",
+                  "content": "Thanks!",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "n87D3",
+                  "name": "birds13",
+                  "width": 98,
+                  "height": 42,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-birds.png",
+                    "mode": "fit"
+                  }
                 }
               ]
             }
