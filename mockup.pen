@@ -1,0 +1,4378 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "IYSva",
+      "x": 0,
+      "y": 0,
+      "name": "01 Login / Signup",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#2AB1EA",
+            "position": 0
+          },
+          {
+            "color": "#145EAE",
+            "position": 0.72
+          },
+          {
+            "color": "#0F438E",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Hqoke",
+          "name": "status1",
+          "width": "fill_container",
+          "height": 62,
+          "padding": [
+            18,
+            20,
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mzLNG",
+              "name": "time1",
+              "fill": "#FFFFFF",
+              "content": "9:41",
+              "fontFamily": "SF Pro",
+              "fontSize": 16,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "7ZJsf",
+              "name": "icons1",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "ObK99",
+                  "name": "sig1",
+                  "fill": "#FFFFFFCC",
+                  "width": 18,
+                  "height": 10
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "fsfTj",
+                  "name": "net1",
+                  "fill": "#FFFFFF99",
+                  "width": 14,
+                  "height": 10
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 5,
+                  "id": "BaKbp",
+                  "name": "bat1",
+                  "fill": "#FFFFFF",
+                  "width": 24,
+                  "height": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jwLYo",
+          "name": "content1",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            12,
+            24,
+            28,
+            24
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Huz8T",
+              "name": "top1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6xPg0",
+                  "name": "badge1",
+                  "fill": "#FFFFFF22",
+                  "cornerRadius": 999,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF3D"
+                  },
+                  "padding": [
+                    8,
+                    14
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "tGK1E",
+                      "name": "badgeText1",
+                      "fill": "#FFFFFF",
+                      "content": "TFS FREQUENT SHOPPER",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UmXQZ",
+                  "name": "logo1",
+                  "width": 148,
+                  "height": 148,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 74
+                },
+                {
+                  "type": "text",
+                  "id": "b3tyt",
+                  "name": "head1",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Your digital TFS card, points, vouchers and rewards in one place.",
+                  "lineHeight": 1,
+                  "fontFamily": "$font-heading",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "uXfTX",
+                  "name": "sub1",
+                  "fill": "#E6F7FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Sign in with email or mobile, scan your in-store card, and keep every transaction, docket and offer close at hand.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "wHgeq",
+                  "name": "motif1",
+                  "width": 88,
+                  "height": 46,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-birds.png",
+                    "mode": "fit"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZiRHm",
+              "name": "bottom1",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qKBJr",
+                  "name": "cta1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u8iYp",
+                      "name": "ctaText1",
+                      "fill": "$brand-deep",
+                      "content": "Create account",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QbmMA",
+                  "name": "cta2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF14",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FFFFFF55"
+                  },
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yzqef",
+                      "name": "ctaText2",
+                      "fill": "#FFFFFF",
+                      "content": "Sign in",
+                      "fontFamily": "$font-heading",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "sIFAr",
+                  "name": "foot1",
+                  "fill": "#D9F5FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "iOS + Android concept for the Tappoo Frequent Shopper program",
+                  "fontFamily": "$font-accent",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zuVFN",
+      "x": 450,
+      "y": 0,
+      "name": "02 Home Dashboard",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F4FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E5F5FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "DwU4I",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status2"
+        },
+        {
+          "type": "frame",
+          "id": "59KFK",
+          "name": "content2",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "NteLy",
+              "name": "header2",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3b8xz",
+                  "name": "headWrap2",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MSd5X",
+                      "name": "title2",
+                      "fill": "$text-strong",
+                      "content": "Bula, Mere",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TMHP9",
+                      "name": "sub2",
+                      "fill": "$text-body",
+                      "content": "Your loyalty overview updates in real time.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sSkgu",
+                  "name": "avatar2",
+                  "width": 48,
+                  "height": 48,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#FFFFFFD9"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#0D4E9D26",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 18
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aN75T",
+              "name": "card2",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 28,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB129",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 34
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WH8EF",
+                  "name": "tier2",
+                  "fill": "#DFF7FF",
+                  "content": "PLATINUM MEMBER",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "09sJD",
+                  "name": "points2",
+                  "fill": "#FFFFFF",
+                  "content": "12,480 pts",
+                  "fontFamily": "Inter",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "3azxy",
+                  "name": "claim2",
+                  "fill": "#E6F7FF",
+                  "content": "Claimable value: FJ$124.80",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "z66Sc",
+                  "name": "member2",
+                  "fill": "#D5F1FF",
+                  "content": "Digital card ready • TFS 0021497",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "RDIzx",
+                  "name": "card2chips",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NWswN",
+                      "name": "chip21",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q8xeW",
+                          "name": "chip21Text",
+                          "fill": "#FFFFFF",
+                          "content": "Card active",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ez3sj",
+                      "name": "chip22",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W7jrY",
+                          "name": "chip22Text",
+                          "fill": "#FFFFFF",
+                          "content": "Live sync",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zqRnO",
+              "name": "promo2",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#FFFFFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#F1FAFF",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#E5F2FB"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "gap": 12,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y5vks",
+                  "name": "promoCopy2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "5GRcD",
+                      "name": "promoTag2",
+                      "fill": "$brand-deep",
+                      "content": "PROMOTION",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.7
+                    },
+                    {
+                      "type": "text",
+                      "id": "OFBJr",
+                      "name": "promoTitle2",
+                      "fill": "$text-strong",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Birthday month? Enjoy 10% off your next in-store visit.",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "25cuW",
+                  "name": "birds2",
+                  "width": 88,
+                  "height": 88,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-birds.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 24
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8624z",
+              "name": "activityTitle2",
+              "fill": "$text-strong",
+              "content": "Latest activity",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "DFxSs",
+              "name": "activityList2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vusNd",
+                  "name": "row21",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": 14,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wBH4y",
+                      "name": "row21left",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qtWXI",
+                          "name": "row21title",
+                          "fill": "$text-strong",
+                          "content": "TappooCity Suva",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Naugz",
+                          "name": "row21meta",
+                          "fill": "$text-body",
+                          "content": "Today • Digital docket synced",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sLUcw",
+                      "name": "row21amt",
+                      "fill": "$success",
+                      "content": "+185 pts",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cRE1G",
+                  "name": "row22",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": 14,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ybLEv",
+                      "name": "row22left",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SZDTL",
+                          "name": "row22title",
+                          "fill": "$text-strong",
+                          "content": "Duty Free Nadi Airport",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qo0v3",
+                          "name": "row22meta",
+                          "fill": "$text-body",
+                          "content": "Yesterday • Birthday voucher viewed",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "v7ga5",
+                      "name": "row22amt",
+                      "fill": "$brand-deep",
+                      "content": "Voucher ready",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AeG7Y",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav2"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "kV6Fo",
+      "x": 900,
+      "y": 0,
+      "name": "03 Digital Card",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F4FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "99wtW",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status3"
+        },
+        {
+          "type": "frame",
+          "id": "HxNof",
+          "name": "content3",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "saAnI",
+              "name": "header3",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9YtyD",
+                  "name": "title3",
+                  "fill": "$text-strong",
+                  "content": "Digital Card",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "57qRS",
+                  "name": "sub3",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Scan this card in-store to earn points and sync dockets instantly.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8y6tR",
+              "name": "card3",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 28,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB12B",
+                "offset": {
+                  "x": 0,
+                  "y": 16
+                },
+                "blur": 32
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t4iuQ",
+                  "name": "cardTop3",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PrKpr",
+                      "name": "tier3",
+                      "fill": "#DFF7FF",
+                      "content": "TFS MEMBER",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jpWu8",
+                      "name": "logo3",
+                      "width": 56,
+                      "height": 56,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./tappoo-logo.png",
+                        "mode": "fit"
+                      },
+                      "cornerRadius": 28
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dvpWD",
+                  "name": "name3",
+                  "fill": "#FFFFFF",
+                  "content": "Mere Tappoo",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "GX2tO",
+                  "name": "member3",
+                  "fill": "#D6F1FF",
+                  "content": "Card No. 0021497",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "AKMaO",
+                  "name": "barcode3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    16,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "fyVyo",
+                      "name": "line31",
+                      "fill": "$text-strong",
+                      "width": "fill_container",
+                      "height": 10
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "hvj9i",
+                      "name": "line32",
+                      "fill": "$text-strong",
+                      "width": 248,
+                      "height": 10
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "viUlH",
+                      "name": "line33",
+                      "fill": "$text-strong",
+                      "width": 292,
+                      "height": 10
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "jNHDe",
+                      "name": "line34",
+                      "fill": "$text-strong",
+                      "width": 214,
+                      "height": 10
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "1MxB6",
+                  "name": "hint3",
+                  "fill": "#D9F5FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Present at checkout for member pricing, points and digital receipts.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "1BscI",
+                  "name": "card3chips",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mGdUZ",
+                      "name": "chip31",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FUwse",
+                          "name": "chip31Text",
+                          "fill": "#FFFFFF",
+                          "content": "Scan in-store",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HiJAj",
+                      "name": "chip32",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IV9xX",
+                          "name": "chip32Text",
+                          "fill": "#FFFFFF",
+                          "content": "Receipts synced",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Bhfr5",
+              "name": "scan3",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PMxEM",
+                  "name": "scanTitle3",
+                  "fill": "$text-strong",
+                  "content": "Last scan: TappooCity Lautoka",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "covse",
+                  "name": "scanMeta3",
+                  "fill": "$text-body",
+                  "content": "8 Apr 2026 • 11:22 AM • Docket stored in-app",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R0BRF",
+              "name": "receipt3",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 90,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#F6FCFF",
+                    "position": 0
+                  },
+                  {
+                    "color": "#E8F7FF",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#D9ECF8"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#9CC6E01F",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9vqy6",
+                  "name": "receiptTitle3",
+                  "fill": "$text-strong",
+                  "content": "Recent documents",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "F5719",
+                  "name": "receiptMeta3",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "3 digital dockets and 12 point movements are ready to review.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "N2TG3",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav3",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "KWjEI": {
+              "fill": "$brand-deep"
+            },
+            "8eY9o": {
+              "fill": "#FFFFFF"
+            },
+            "MToNy": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "zoBvN",
+      "x": 0,
+      "y": 920,
+      "name": "04 Points & Rewards",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F4FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#EAF8FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "OpRaE",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status4"
+        },
+        {
+          "type": "frame",
+          "id": "x2il2",
+          "name": "content4",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Lg2NM",
+              "name": "header4",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sjsfh",
+                  "name": "title4",
+                  "fill": "$text-strong",
+                  "content": "Points & Rewards",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "6nWyS",
+                  "name": "sub4",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Track earning momentum and unlock your next offer.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "x1C1t",
+              "name": "balance4",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 28,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8NFyy",
+                  "name": "balanceLabel4",
+                  "fill": "$brand-deep",
+                  "content": "Available now",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.7
+                },
+                {
+                  "type": "text",
+                  "id": "9v3Ew",
+                  "name": "balanceValue4",
+                  "fill": "$text-strong",
+                  "content": "12,480 points",
+                  "fontFamily": "Inter",
+                  "fontSize": 34,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "nO39D",
+                  "name": "progressBg4",
+                  "width": "fill_container",
+                  "height": 14,
+                  "fill": "$brand-ice",
+                  "cornerRadius": 999,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "b8BIT",
+                      "name": "progressFill4",
+                      "width": 246,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "$brand-sky",
+                            "position": 0
+                          },
+                          {
+                            "color": "$brand-deep",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 999
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "1sQF4",
+                  "name": "progressMeta4",
+                  "fill": "$text-body",
+                  "content": "82% of the way to your next FJ$25 reward voucher.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "MQf3Y",
+                  "name": "metricRow4",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cvp9a",
+                      "name": "metric41",
+                      "width": "fill_container",
+                      "fill": "$brand-ice",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yQwYP",
+                          "name": "metric41Text",
+                          "fill": "$brand-deep",
+                          "content": "This month +1,240",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BbKXZ",
+                      "name": "metric42",
+                      "width": "fill_container",
+                      "fill": "$brand-ice",
+                      "cornerRadius": 16,
+                      "layout": "vertical",
+                      "gap": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3vkZc",
+                          "name": "metric42Text",
+                          "fill": "$brand-deep",
+                          "content": "Next tier in 2 visits",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "redeS",
+              "name": "voucher4",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB126",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 28
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7jQFT",
+                  "name": "voucherTag4",
+                  "fill": "#DFF7FF",
+                  "content": "BIRTHDAY REWARD",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "0Tez1",
+                  "name": "voucherTitle4",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "10% discount is reserved for your birthday month.",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "gmkIH",
+                  "name": "voucherMeta4",
+                  "fill": "#D6F1FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Use in-store on any eligible Tappoo retail purchase before 30 Apr 2026.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "8jvxB",
+              "name": "profile4",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QgyMV",
+                  "name": "profileTitle4",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Complete your profile for a FJ$10 voucher",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "N7RO7",
+                  "name": "profileMeta4",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Add your DOB, gender and contact details to activate the welcome incentive.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VUxn5",
+              "name": "cta4",
+              "width": "fill_container",
+              "fill": "$brand-deep",
+              "cornerRadius": 20,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0D4E9D30",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "padding": [
+                14,
+                18
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kMu4X",
+                  "name": "ctaText4",
+                  "fill": "#FFFFFF",
+                  "content": "Redeem from points store",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SFyq4",
+              "name": "store4",
+              "width": "fill_container",
+              "fill": "$brand-ice",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oXasW",
+                  "name": "storeTitle4",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Claimable dollar balance: FJ$124.80",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "I6axH",
+                  "name": "storeMeta4",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Gift cards, store items and seasonal promos refresh daily.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P8b1m",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav4",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "GnOhf": {
+              "fill": "$brand-deep"
+            },
+            "aasXc": {
+              "fill": "#FFFFFF"
+            },
+            "yQBmR": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "WnMUS",
+      "x": 450,
+      "y": 920,
+      "name": "05 E-Gift Store",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F6FCFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "hebMC",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status5"
+        },
+        {
+          "type": "frame",
+          "id": "2qV3t",
+          "name": "content5",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "TTzql",
+              "name": "header5",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lf2RG",
+                  "name": "title5",
+                  "fill": "$text-strong",
+                  "content": "E-Gift Store",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "sW71O",
+                  "name": "sub5",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Browse, purchase and store digital gift cards inside the app.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9xnRG",
+              "name": "hero5",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB126",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 30
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "6pVfZ",
+                  "name": "heroTag5",
+                  "fill": "#DFF7FF",
+                  "content": "FEATURED THIS WEEK",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "JEctG",
+                  "name": "heroTitle5",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Send a Tappoo gift in seconds.",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "yB6ul",
+                  "name": "heroMeta5",
+                  "fill": "#D6F1FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Instant delivery, in-app storage and easy redemption at participating stores.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "l9Jp9",
+                  "name": "heroArt5",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1775877589713.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 22
+                },
+                {
+                  "type": "frame",
+                  "id": "5NeOs",
+                  "name": "heroActions5",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sQnIU",
+                      "name": "action51",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF45"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UvatS",
+                          "name": "action51Text",
+                          "fill": "#FFFFFF",
+                          "content": "Instant send",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gHrCp",
+                      "name": "action52",
+                      "fill": "#FFFFFF22",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF45"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dYq8o",
+                          "name": "action52Text",
+                          "fill": "#FFFFFF",
+                          "content": "Stored in app",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WmSU0",
+              "name": "card51",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eUpqA",
+                  "name": "card51Title",
+                  "fill": "$text-strong",
+                  "content": "TappooCity Gift Card",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "3dcqT",
+                  "name": "card51Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Use across lifestyle, duty free and department store locations.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yasGe",
+                  "name": "card51Price",
+                  "fill": "$brand-deep",
+                  "content": "From FJ$25",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hXmtv",
+              "name": "card52",
+              "width": "fill_container",
+              "fill": "$brand-ice",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RlpBV",
+                  "name": "card52Title",
+                  "fill": "$text-strong",
+                  "content": "Travel Essentials E-Gift",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "wYX44",
+                  "name": "card52Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ideal for duty free shopping, airport pickups and gifting before a trip.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rTthF",
+                  "name": "card52Price",
+                  "fill": "$brand-deep",
+                  "content": "From FJ$50",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gG0yA",
+              "name": "card53",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 3,
+              "padding": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dh22P",
+                  "name": "card53Title",
+                  "fill": "$text-strong",
+                  "content": "Celebration Gift Wallet",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "vze75",
+                  "name": "card53Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Bundle multiple gift values and keep them ready for birthdays or thank-you gifts.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "55nhu",
+                  "name": "card53Price",
+                  "fill": "$brand-deep",
+                  "content": "From FJ$100",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "V8PTB",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav5",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "GnOhf": {
+              "fill": "$brand-deep"
+            },
+            "aasXc": {
+              "fill": "#FFFFFF"
+            },
+            "yQBmR": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ypDib",
+      "x": 900,
+      "y": 920,
+      "name": "06 Notifications",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#EAF7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "fyDai",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status6"
+        },
+        {
+          "type": "frame",
+          "id": "hEGTN",
+          "name": "content6",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "pEYAM",
+              "name": "header6",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ycRs0",
+                  "name": "title6",
+                  "fill": "$text-strong",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "079hh",
+                  "name": "sub6",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Promotions, voucher reminders and loyalty updates land here.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Hbqml",
+                  "name": "filter6",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rgGwx",
+                      "name": "f61",
+                      "fill": "$brand-deep",
+                      "cornerRadius": 999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PrlRK",
+                          "name": "f61Text",
+                          "fill": "#FFFFFF",
+                          "content": "All",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bSKay",
+                      "name": "f62",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-soft"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3o50V",
+                          "name": "f62Text",
+                          "fill": "$text-body",
+                          "content": "Offers",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "q5PZH",
+              "name": "list6",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "MRacr",
+                  "name": "n61",
+                  "width": "fill_container",
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 180,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "$brand-sky",
+                        "position": 0
+                      },
+                      {
+                        "color": "$brand-deep",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#1D6DB120",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 24
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "smoym",
+                      "name": "tag61",
+                      "fill": "#DFF7FF",
+                      "content": "PROMOTION",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bh2Rx",
+                      "name": "title61",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Weekend offer: double points on selected lifestyle brands.",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k0woX",
+                      "name": "meta61",
+                      "fill": "#D6F1FF",
+                      "content": "Today • Tap to view terms and participating stores.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "131k5",
+                  "name": "n62",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#8AB7D41A",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 22
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WXxCv",
+                      "name": "tag62",
+                      "fill": "$brand-deep",
+                      "content": "VOUCHER REMINDER",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pjpww",
+                      "name": "title62",
+                      "fill": "$text-strong",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Your birthday voucher is active until 30 Apr 2026.",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "JhCFM",
+                      "name": "meta62",
+                      "fill": "$text-body",
+                      "content": "Don’t forget to scan your digital card at checkout.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LdGXi",
+                  "name": "n63",
+                  "width": "fill_container",
+                  "fill": "$brand-ice",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#8AB7D41A",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 22
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ljaTr",
+                      "name": "tag63",
+                      "fill": "$brand-deep",
+                      "content": "ACCOUNT",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "5zlZz",
+                      "name": "title63",
+                      "fill": "$text-strong",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Profile is 84% complete. Finish it to unlock FJ$10.",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wSbY1",
+                      "name": "meta63",
+                      "fill": "$text-body",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Add DOB and gender to complete your member profile.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eTxYE",
+                  "name": "n64",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#8AB7D41A",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 22
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ygsjb",
+                      "name": "tag64",
+                      "fill": "$brand-deep",
+                      "content": "THANK YOU",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 0.8
+                    },
+                    {
+                      "type": "text",
+                      "id": "XNw4Q",
+                      "name": "title64",
+                      "fill": "$text-strong",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Receipt from TappooCity Suva has been saved to your wallet.",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z31CN",
+                      "name": "meta64",
+                      "fill": "$text-body",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Yesterday • View docket and earned points in one tap.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AMIPl",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav6",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "qD4C7": {
+              "fill": "$brand-deep"
+            },
+            "VfPpQ": {
+              "fill": "#FFFFFF"
+            },
+            "8uK5y": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JkZ5A",
+      "x": 0,
+      "y": 1840,
+      "name": "07 Profile",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E7F6FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "Uhgrj",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status7"
+        },
+        {
+          "type": "frame",
+          "id": "gMtvB",
+          "name": "content7",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 4,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "jCarx",
+              "name": "header7",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "szZv5",
+                  "name": "title7",
+                  "fill": "$text-strong",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "QWdA2",
+                  "name": "sub7",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Manage account details, preferences and profile completion.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HI60J",
+              "name": "hero7",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 28,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB126",
+                "offset": {
+                  "x": 0,
+                  "y": 16
+                },
+                "blur": 32
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hBWOr",
+                  "name": "avatar7",
+                  "width": 72,
+                  "height": 72,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-logo.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 36,
+                  "stroke": {
+                    "thickness": 2,
+                    "fill": "#FFFFFFA8"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "arU8Q",
+                  "name": "name7",
+                  "fill": "#FFFFFF",
+                  "content": "Mere Tappoo",
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "dF2sd",
+                  "name": "tier7",
+                  "fill": "#D6F1FF",
+                  "content": "Platinum member • Verified email and mobile",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xaQ07",
+                  "name": "verifyRow7",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NtOcP",
+                      "name": "verify71",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "siOKY",
+                          "name": "verify71Text",
+                          "fill": "#FFFFFF",
+                          "content": "OTP on",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lSMV8",
+                      "name": "verify72",
+                      "fill": "#FFFFFF26",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#FFFFFF3D"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bgSCM",
+                          "name": "verify72Text",
+                          "fill": "#FFFFFF",
+                          "content": "Email verified",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "E4VJQ",
+              "name": "completion7",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hich4",
+                  "name": "completionTitle7",
+                  "fill": "$text-strong",
+                  "content": "Profile completion: 84%",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "hqrGY",
+                  "name": "completionBar7",
+                  "width": "fill_container",
+                  "height": 14,
+                  "fill": "$brand-ice",
+                  "cornerRadius": 999,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B1Mnd",
+                      "name": "completionFill7",
+                      "width": 252,
+                      "height": "fill_container",
+                      "fill": "$brand-deep",
+                      "cornerRadius": 999
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "O7BAz",
+                  "name": "completionMeta7",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Add DOB and gender to unlock your FJ$10 welcome voucher.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wwsrg",
+              "name": "info71",
+              "width": "fill_container",
+              "fill": "$brand-ice",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZPSR0",
+                  "name": "info71Title",
+                  "fill": "$text-strong",
+                  "content": "Personal details",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "tGPw4",
+                  "name": "info71Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Name, email, mobile, DOB and gender are editable from this section.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fYBjK",
+              "name": "info72",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 24
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZYE5e",
+                  "name": "info72Title",
+                  "fill": "$text-strong",
+                  "content": "Communication preferences",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "LebHY",
+                  "name": "info72Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Choose email, push and promotional alerts for rewards and campaigns.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K6D9F",
+              "name": "info73",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tlyjt",
+                  "name": "info73Title",
+                  "fill": "$text-strong",
+                  "content": "Security",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "70c3R",
+                  "name": "info73Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "OTP login, device management and password controls live here.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B6uK4",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav7",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "WvcjB": {
+              "fill": "$brand-deep"
+            },
+            "iQn8f": {
+              "fill": "#FFFFFF"
+            },
+            "8Y51L": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gfzq9",
+      "x": 450,
+      "y": 1840,
+      "name": "08 Voucher Wallet",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "ZqT7e",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status8"
+        },
+        {
+          "type": "frame",
+          "id": "TGkfH",
+          "name": "content8",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "3zkoI",
+              "name": "header8",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7HEkB",
+                  "name": "title8",
+                  "fill": "$text-strong",
+                  "content": "Voucher Wallet",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "vCDh9",
+                  "name": "sub8",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "All active vouchers, gift cards and claimable offers in one place.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nBz1Y",
+              "name": "summary8",
+              "width": "fill_container",
+              "fill": "$brand-ice",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#9CC6E01F",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8lJAE",
+                  "name": "summaryTitle8",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "3 active vouchers • FJ$124.80 claimable",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "s3YjE",
+                  "name": "summaryMeta8",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Use them in-store by scanning your digital card at checkout.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "lhEPF",
+                  "name": "walletRow",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qs8Qb",
+                      "name": "walletChip81",
+                      "fill": "#FFFFFFB8",
+                      "cornerRadius": 999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yP02G",
+                          "name": "walletChip81Text",
+                          "fill": "$brand-deep",
+                          "content": "2 ready now",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6NS4x",
+                      "name": "walletChip82",
+                      "fill": "#FFFFFFB8",
+                      "cornerRadius": 999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mfw6Q",
+                          "name": "walletChip82Text",
+                          "fill": "$brand-deep",
+                          "content": "1 expiring soon",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KjfWi",
+              "name": "v81",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB126",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 28
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Wcr0r",
+                  "name": "v81Tag",
+                  "fill": "#DFF7FF",
+                  "content": "BIRTHDAY MONTH",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "dusiw",
+                  "name": "v81Title",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "10% off one eligible purchase",
+                  "fontFamily": "Inter",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "7VdDn",
+                  "name": "v81Meta",
+                  "fill": "#D6F1FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Valid until 30 Apr 2026 • Redeem at any participating Tappoo store.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OcE6M",
+              "name": "v82",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A6zTQ",
+                  "name": "v82Tag",
+                  "fill": "$brand-deep",
+                  "content": "PROFILE BONUS",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "jcTtx",
+                  "name": "v82Title",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "FJ$10 profile completion voucher",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "6CQnd",
+                  "name": "v82Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Complete your account and the voucher becomes redeemable automatically.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5xbTZ",
+              "name": "v83",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 24,
+              "stroke": {
+                "thickness": 1,
+                "fill": "$border-soft"
+              },
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#8AB7D41A",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "layout": "vertical",
+              "gap": 4,
+              "padding": 10,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fmooz",
+                  "name": "v83Tag",
+                  "fill": "$brand-deep",
+                  "content": "SEASONAL PROMO",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "text",
+                  "id": "NbjZY",
+                  "name": "v83Title",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "FJ$25 spend-and-save voucher",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "SnIhI",
+                  "name": "v83Meta",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Unlocked after your next 500 points are earned this month.",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AzMIo",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav8",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "GnOhf": {
+              "fill": "$brand-deep"
+            },
+            "aasXc": {
+              "fill": "#FFFFFF"
+            },
+            "yQBmR": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "2wrzq",
+      "x": 900,
+      "y": 1840,
+      "name": "09 Transaction History",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#FFFFFF",
+            "position": 0
+          },
+          {
+            "color": "#F5FBFF",
+            "position": 0.55
+          },
+          {
+            "color": "#E8F7FF",
+            "position": 1
+          }
+        ]
+      },
+      "cornerRadius": 36,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#8CBFE333",
+        "offset": {
+          "x": 0,
+          "y": 18
+        },
+        "blur": 42
+      },
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "Ay2vR",
+          "type": "ref",
+          "ref": "jpASl",
+          "name": "status9"
+        },
+        {
+          "type": "frame",
+          "id": "oamUb",
+          "name": "content9",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            6,
+            20,
+            16,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "JskFx",
+              "name": "header9",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wwzOh",
+                  "name": "title9",
+                  "fill": "$text-strong",
+                  "content": "Transaction History",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "BWOB7",
+                  "name": "sub9",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Purchases, point movements and digital dockets stay synced here.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "woq3M",
+                  "name": "filter9",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FJsbj",
+                      "name": "f91",
+                      "fill": "$brand-deep",
+                      "cornerRadius": 999,
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YYsKx",
+                          "name": "f91Text",
+                          "fill": "#FFFFFF",
+                          "content": "April",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4Kig1",
+                      "name": "f92",
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "$border-soft"
+                      },
+                      "padding": [
+                        8,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UKE1D",
+                          "name": "f92Text",
+                          "fill": "$text-body",
+                          "content": "Receipts",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "700",
+                          "letterSpacing": 0.4
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LWnBP",
+              "name": "summary9",
+              "width": "fill_container",
+              "fill": "$brand-ice",
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#9CC6E01F",
+                "offset": {
+                  "x": 0,
+                  "y": 10
+                },
+                "blur": 22
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4wflo",
+                  "name": "summaryTitle9",
+                  "fill": "$text-strong",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "This month: 8 purchases • 1,240 points earned",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xIlay",
+                  "name": "summaryMeta9",
+                  "fill": "$text-body",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tap any entry to view itemised dockets or points history.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "46wNO",
+              "name": "list9",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vvUK5",
+                  "name": "t91",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": 14,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nsyST",
+                      "name": "t91Left",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fpdEX",
+                          "name": "t91Title",
+                          "fill": "$text-strong",
+                          "content": "TappooCity Suva",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "shlQ0",
+                          "name": "t91Meta",
+                          "fill": "$text-body",
+                          "content": "8 Apr 2026 • Docket #TFS1182",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "THy6s",
+                      "name": "t91Amt",
+                      "fill": "$text-strong",
+                      "content": "FJ$185.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ioqg1",
+                  "name": "t92",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": 14,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "n7nJr",
+                      "name": "t92Left",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0nfaf",
+                          "name": "t92Title",
+                          "fill": "$text-strong",
+                          "content": "Tappoo Duty Free",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4l1SC",
+                          "name": "t92Meta",
+                          "fill": "$text-body",
+                          "content": "5 Apr 2026 • +420 points credited",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "4fgzG",
+                      "name": "t92Amt",
+                      "fill": "$text-strong",
+                      "content": "FJ$412.50",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0zlA0",
+                  "name": "t93",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "$border-soft"
+                  },
+                  "padding": 14,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ylfcd",
+                      "name": "t93Left",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fobsR",
+                          "name": "t93Title",
+                          "fill": "$text-strong",
+                          "content": "TappooCity Lautoka",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rWDyD",
+                          "name": "t93Meta",
+                          "fill": "$text-body",
+                          "content": "1 Apr 2026 • Refund adjusted and synced",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "qQIGE",
+                      "name": "t93Amt",
+                      "fill": "$warning",
+                      "content": "- FJ$35.00",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "2xxw2",
+              "name": "docket9",
+              "width": "fill_container",
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 180,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "$brand-sky",
+                    "position": 0
+                  },
+                  {
+                    "color": "$brand-deep",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 24,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#1D6DB126",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 28
+              },
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "819m2",
+                  "name": "docketTitle9",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Digital dockets are available offline once opened.",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "oDsOc",
+                  "name": "docketMeta9",
+                  "fill": "#D6F1FF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Receipts remain searchable by store, date and voucher use.",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iXvql",
+          "type": "ref",
+          "ref": "cyYGN",
+          "name": "nav9",
+          "descendants": {
+            "s4RC5": {
+              "fill": "#00000000"
+            },
+            "Y1ruS": {
+              "fill": "$brand-sky"
+            },
+            "XqACs": {
+              "fill": "$text-soft"
+            },
+            "KWjEI": {
+              "fill": "$brand-deep"
+            },
+            "8eY9o": {
+              "fill": "#FFFFFF"
+            },
+            "MToNy": {
+              "fill": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jpASl",
+      "x": 1400,
+      "y": 0,
+      "name": "Component / Status Bar",
+      "reusable": true,
+      "width": 390,
+      "height": 62,
+      "padding": [
+        18,
+        20,
+        0,
+        20
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "aQqxx",
+          "name": "statusTime",
+          "fill": "$text-strong",
+          "content": "9:41",
+          "fontFamily": "Inter",
+          "fontSize": 16,
+          "fontWeight": "700"
+        },
+        {
+          "type": "frame",
+          "id": "hh0mC",
+          "name": "statusRight",
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 5,
+              "id": "EAFf8",
+              "name": "statusSig",
+              "fill": "$text-strong",
+              "width": 18,
+              "height": 10
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 5,
+              "id": "J4EQ3",
+              "name": "statusNet",
+              "fill": "$text-soft",
+              "width": 14,
+              "height": 10
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 5,
+              "id": "baxMh",
+              "name": "statusBat",
+              "fill": "$text-strong",
+              "width": 24,
+              "height": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cyYGN",
+      "x": 1400,
+      "y": 110,
+      "name": "Component / Bottom Nav",
+      "reusable": true,
+      "width": 390,
+      "height": 95,
+      "layout": "vertical",
+      "padding": [
+        12,
+        21,
+        21,
+        21
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "r7t2v",
+          "name": "navPill",
+          "width": "fill_container",
+          "height": 62,
+          "fill": "#FFFFFFB8",
+          "cornerRadius": 36,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#FFFFFFD9"
+          },
+          "effect": [
+            {
+              "type": "background_blur",
+              "radius": 18
+            },
+            {
+              "type": "shadow",
+              "shadowType": "outer",
+              "color": "#84B8DA3D",
+              "offset": {
+                "x": 0,
+                "y": 12
+              },
+              "blur": 32
+            }
+          ],
+          "gap": 4,
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "s4RC5",
+              "name": "tabHome",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "$brand-deep",
+              "cornerRadius": 26,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0D4E9D3D",
+                "offset": {
+                  "x": 0,
+                  "y": 6
+                },
+                "blur": 18
+              },
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 99,
+                  "id": "Y1ruS",
+                  "name": "homeIcon",
+                  "fill": "#FFFFFF",
+                  "width": 20,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "XqACs",
+                  "name": "homeLabel",
+                  "fill": "#FFFFFF",
+                  "content": "HOME",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KWjEI",
+              "name": "tabCard",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF59",
+              "cornerRadius": 26,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 99,
+                  "id": "8eY9o",
+                  "name": "cardIcon",
+                  "fill": "$brand-sky",
+                  "width": 20,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "MToNy",
+                  "name": "cardLabel",
+                  "fill": "$text-soft",
+                  "content": "CARD",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GnOhf",
+              "name": "tabRewards",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF59",
+              "cornerRadius": 26,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 99,
+                  "id": "aasXc",
+                  "name": "rewardsIcon",
+                  "fill": "$brand-sky",
+                  "width": 20,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "yQBmR",
+                  "name": "rewardsLabel",
+                  "fill": "$text-soft",
+                  "content": "REWARDS",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qD4C7",
+              "name": "tabAlerts",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF59",
+              "cornerRadius": 26,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 99,
+                  "id": "VfPpQ",
+                  "name": "alertsIcon",
+                  "fill": "$brand-sky",
+                  "width": 20,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "8uK5y",
+                  "name": "alertsLabel",
+                  "fill": "$text-soft",
+                  "content": "ALERTS",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WvcjB",
+              "name": "tabProfile",
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF59",
+              "cornerRadius": 26,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 99,
+                  "id": "iQn8f",
+                  "name": "profileIcon",
+                  "fill": "$brand-sky",
+                  "width": 20,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "8Y51L",
+                  "name": "profileLabel",
+                  "fill": "$text-soft",
+                  "content": "PROFILE",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#F6FBFF"
+    },
+    "border-soft": {
+      "type": "color",
+      "value": "#D7E9F5"
+    },
+    "brand-deep": {
+      "type": "color",
+      "value": "#145EAE"
+    },
+    "brand-ice": {
+      "type": "color",
+      "value": "#E8F7FF"
+    },
+    "brand-navy": {
+      "type": "color",
+      "value": "#0F438E"
+    },
+    "brand-sky": {
+      "type": "color",
+      "value": "#1FA7E1"
+    },
+    "font-accent": {
+      "type": "string",
+      "value": "Crimson Text"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Open Sans"
+    },
+    "font-heading": {
+      "type": "string",
+      "value": "Catamaran"
+    },
+    "radius-card": {
+      "type": "number",
+      "value": 24
+    },
+    "radius-pill": {
+      "type": "number",
+      "value": 18
+    },
+    "success": {
+      "type": "color",
+      "value": "#169B79"
+    },
+    "surface": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-body": {
+      "type": "color",
+      "value": "#627893"
+    },
+    "text-soft": {
+      "type": "color",
+      "value": "#8FA5BC"
+    },
+    "text-strong": {
+      "type": "color",
+      "value": "#173251"
+    },
+    "warning": {
+      "type": "color",
+      "value": "#F2A33A"
+    }
+  }
+}

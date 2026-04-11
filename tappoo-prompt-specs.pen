@@ -1,0 +1,57 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "prompt",
+      "id": "xMQFp",
+      "x": -916,
+      "y": -1698,
+      "width": 279,
+      "height": 250,
+      "content": "After downloading app, user open the app.\n\nA spash screen will come\n\nThere will be two options: Sign Up, Sign In"
+    },
+    {
+      "type": "prompt",
+      "id": "fxv04",
+      "x": -542,
+      "y": -1698,
+      "width": 454,
+      "height": 442,
+      "content": "Sign Up\n\nUser enter the following details:\n\nMember Category (Gold, White, Silver, Platinum)\nRegistering Branch\nTitle (Mr., Miss., Mrs.)\nFirst Name\nDOB\nMarital Status\nEmail\nPhone No\nRecommended By (Optional)\nAdditional Information (Optional)\n\nAfter entering the details user click on submit and the user will be shown with the message, that you application is under process. Once approved you will be notified with an email. Thanks!"
+    },
+    {
+      "type": "prompt",
+      "id": "hKavc",
+      "x": 0,
+      "y": -1698,
+      "width": 279,
+      "height": 250,
+      "content": "Sign In\n\nUser enter Email/Phone number\nReceive an OTP over email or phone\nOption will be there to resent otp\nUser will enter the otp, if wrong show the user a error: toast message and if success show the user a success toast message and redirect to the logged in flow\n"
+    }
+  ],
+  "themes": {
+    "Theme": [
+      "Default",
+      "Variant-1"
+    ]
+  },
+  "variables": {
+    "color-1": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000000",
+          "theme": {
+            "Theme": "Default"
+          }
+        },
+        {
+          "value": "#000000",
+          "theme": {
+            "Theme": "Variant-1"
+          }
+        }
+      ]
+    }
+  }
+}
