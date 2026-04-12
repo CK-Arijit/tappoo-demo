@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tappoo Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <main class="layout">
+    <aside class="sidebar">
+      <h1>Tappoo Prototype</h1>
+      <p class="subtitle">All screens from <code>stable-mockup.pen</code> with demo transitions.</p>
+      <input id="search" type="search" placeholder="Search screen name" />
+      <div id="screenList" class="screen-list"></div>
+    </aside>
+
+    <section class="viewer">
+      <header class="viewer-top">
+        <div>
+          <p class="kicker">Current Screen</p>
+          <h2 id="screenTitle">-</h2>
+          <p id="screenId" class="screen-id">-</p>
+        </div>
+        <div class="header-actions">
+          <button id="prevBtn" class="ghost">Previous</button>
+          <button id="nextBtn">Next</button>
+        </div>
+      </header>
+
+      <div class="phone-shell">
+        <img id="screenImage" alt="Prototype screen" loading="eager" />
+      </div>
+
+      <div class="flow-panel">
+        <h3>Prototype Actions</h3>
+        <div id="flowButtons" class="flow-buttons"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="screens.js"></script>
+  <script src="viewer.js"></script>
+</body>
+</html>
