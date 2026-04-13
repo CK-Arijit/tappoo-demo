@@ -3061,7 +3061,7 @@
       "name": "Screen 7",
       "clip": true,
       "width": 390,
-      "height": 979,
+      "height": 844,
       "fill": {
         "type": "gradient",
         "gradientType": "linear",
@@ -4024,7 +4024,7 @@
     {
       "type": "frame",
       "id": "slcNh",
-      "x": 788,
+      "x": 863,
       "y": 642,
       "name": "Screen 8",
       "clip": true,
