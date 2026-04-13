@@ -10398,37 +10398,83 @@
             },
             {
               "type": "frame",
-              "id": "TQsGa",
+              "id": "dfDR1",
               "name": "statusRight",
               "gap": 6,
               "alignItems": "center",
               "children": [
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "aTG91",
-                  "name": "statusSig",
-                  "fill": "$text-strong",
-                  "width": 18,
-                  "height": 10
+                  "type": "icon_font",
+                  "id": "6j6wf",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal_cellular_alt",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "$text-strong"
                 },
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "gD3tq",
-                  "name": "statusNet",
-                  "fill": "$text-soft",
-                  "width": 14,
-                  "height": 10
+                  "type": "icon_font",
+                  "id": "wF00K",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "$text-strong"
                 },
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "80mXZ",
-                  "name": "statusBat",
+                  "type": "text",
+                  "id": "ai6mU",
+                  "x": 44,
+                  "y": 0,
+                  "enabled": false,
                   "fill": "$text-strong",
+                  "fontFamily": "SF Pro",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "rOnwu",
+                  "name": "battery",
                   "width": 24,
-                  "height": 10
+                  "height": 12,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "03yUi",
+                      "x": 0,
+                      "y": 0,
+                      "fill": "#00000000",
+                      "width": 21,
+                      "height": 12,
+                      "stroke": {
+                        "thickness": 1.2,
+                        "fill": "$text-strong"
+                      }
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "fheBw",
+                      "x": 2,
+                      "y": 2,
+                      "fill": "$text-strong",
+                      "width": 13,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 1,
+                      "id": "Tt75z",
+                      "x": 22,
+                      "y": 4,
+                      "fill": "$text-strong",
+                      "width": 2,
+                      "height": 4
+                    }
+                  ]
                 }
               ]
             }
@@ -11501,37 +11547,83 @@
             },
             {
               "type": "frame",
-              "id": "iTr68",
+              "id": "edG9e",
               "name": "statusRight",
               "gap": 6,
               "alignItems": "center",
               "children": [
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "n0cVq",
-                  "name": "statusSig",
-                  "fill": "$text-strong",
-                  "width": 18,
-                  "height": 10
+                  "type": "icon_font",
+                  "id": "52mU8",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "signal_cellular_alt",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "$text-strong"
                 },
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "bkZDQ",
-                  "name": "statusNet",
-                  "fill": "$text-soft",
-                  "width": 14,
-                  "height": 10
+                  "type": "icon_font",
+                  "id": "BjYYG",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "wifi",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "fill": "$text-strong"
                 },
                 {
-                  "type": "rectangle",
-                  "cornerRadius": 5,
-                  "id": "BQSqN",
-                  "name": "statusBat",
+                  "type": "text",
+                  "id": "ODrAq",
+                  "x": 44,
+                  "y": 0,
+                  "enabled": false,
                   "fill": "$text-strong",
+                  "fontFamily": "SF Pro",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "01rtn",
+                  "name": "battery",
                   "width": 24,
-                  "height": 10
+                  "height": 12,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 3,
+                      "id": "wlF7H",
+                      "x": 0,
+                      "y": 0,
+                      "fill": "#00000000",
+                      "width": 21,
+                      "height": 12,
+                      "stroke": {
+                        "thickness": 1.2,
+                        "fill": "$text-strong"
+                      }
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "UqSOC",
+                      "x": 2,
+                      "y": 2,
+                      "fill": "$text-strong",
+                      "width": 13,
+                      "height": 8
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 1,
+                      "id": "nJjbg",
+                      "x": 22,
+                      "y": 4,
+                      "fill": "$text-strong",
+                      "width": 2,
+                      "height": 4
+                    }
+                  ]
                 }
               ]
             }
