@@ -22340,150 +22340,19 @@
                 },
                 {
                   "type": "frame",
-                  "id": "9E5Dh",
-                  "name": "meta",
-                  "width": "fill_container",
-                  "gap": 12,
-                  "justifyContent": "space_between",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Qy4Oz",
-                      "name": "exp",
-                      "layout": "vertical",
-                      "gap": 3,
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "S3J0H",
-                          "name": "expLbl",
-                          "fill": "#D5F1FF",
-                          "content": "Expiry",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "WASof",
-                          "name": "expVal",
-                          "fill": "#FFFFFF",
-                          "content": "04 / 29",
-                          "fontFamily": "Inter",
-                          "fontSize": 12,
-                          "fontWeight": "700"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "A7nd6",
-                      "name": "cvv",
-                      "layout": "vertical",
-                      "gap": 2,
-                      "alignItems": "end",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "10luN",
-                          "name": "cvvLbl",
-                          "fill": "#D5F1FF",
-                          "content": "CVV",
-                          "fontFamily": "Inter",
-                          "fontSize": 10,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Rrm0G",
-                          "name": "cvvRow",
-                          "fill": "#FFFFFF10",
-                          "cornerRadius": 12,
-                          "gap": 6,
-                          "padding": [
-                            4,
-                            6
-                          ],
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "xSWUG",
-                              "name": "cvvVal",
-                              "fill": "#FFFFFF",
-                              "content": "•••",
-                              "fontFamily": "Inter",
-                              "fontSize": 12,
-                              "fontWeight": "700",
-                              "letterSpacing": 1
-                            },
-                            {
-                              "type": "frame",
-                              "id": "PxrnG",
-                              "name": "revealChip",
-                              "fill": "#FFFFFF1A",
-                              "cornerRadius": 9,
-                              "padding": [
-                                2,
-                                4
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon_font",
-                                  "id": "uqWQG",
-                                  "name": "revealEye",
-                                  "width": 12,
-                                  "height": 12,
-                                  "iconFontName": "eye",
-                                  "iconFontFamily": "lucide",
-                                  "fill": "#FFFFFFCC"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "SSLL0",
-                                  "x": 19,
-                                  "y": 4,
-                                  "name": "revealText",
-                                  "enabled": false,
-                                  "fill": "#FFFFFF99",
-                                  "content": "tap",
-                                  "fontFamily": "Inter",
-                                  "fontSize": 7,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "4UyVa",
-                          "name": "cvvHint",
-                          "fill": "#D5F1FF",
-                          "content": "Hold to reveal",
-                          "fontFamily": "Inter",
-                          "fontSize": 8,
-                          "fontWeight": "600"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
                   "id": "u6xCQ",
                   "name": "barcode",
                   "width": "fill_container",
-                  "height": 50,
+                  "height": 85,
                   "fill": "#FFFFFF",
-                  "cornerRadius": 12,
-                  "gap": 3,
-                  "padding": [
-                    6,
-                    10
-                  ],
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#E1E8F0"
+                  },
+                  "gap": 1,
+                  "padding": 8,
+                  "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
                     {
@@ -22491,376 +22360,520 @@
                       "id": "sixZa",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "0j22w",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "CpJBw",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "jrZWB",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "JQGUF",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "6diV5",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "lQOLL",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "1fc9r",
                       "name": "bar8",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "crMGt",
                       "name": "bar8",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "MLBQF",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "dsHtf",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "GyZay",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "uCxzl",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000ff"
                     },
                     {
                       "type": "frame",
                       "id": "zkYSi",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "tCaZ6",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "QZqqI",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "7lGsO",
                       "name": "bar8",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "jyD8O",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "8qNqv",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "5tzZt",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "KG2FS",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "oXEqM",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "M5lfT",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "p0Jer",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "vwYve",
                       "name": "bar8",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "Oj2AI",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "Xfy3L",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "9oX7p",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "l0L8E",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000ff"
                     },
                     {
                       "type": "frame",
                       "id": "eQI3F",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "vdsXS",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "Sqwax",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "Da7M7",
                       "name": "bar8",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "rsQu2",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "YSVyn",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "MnOGT",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "gWFpp",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "oJkDc",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "3jV5r",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "ohYRX",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "2ENYI",
                       "name": "bar7",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "qU3lJ",
                       "name": "bar6",
                       "width": 3,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "o4zbu",
                       "name": "bar5",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "fbh1M",
                       "name": "bar4",
                       "width": 5,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "Ru12g",
                       "name": "bar3",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "3FOUN",
                       "name": "bar2",
                       "width": 4,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
                       "id": "HfQTK",
                       "name": "bar1",
                       "width": 2,
-                      "height": 30,
-                      "fill": "#1D6DB1"
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MxX6Q",
+                      "name": "b1",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zdsG7",
+                      "name": "b2",
+                      "width": 4,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sJ8mN",
+                      "name": "b3",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JA7a0",
+                      "name": "b4",
+                      "width": 5,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CXQZR",
+                      "name": "b5",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ze4GV",
+                      "name": "b6",
+                      "width": 3,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "y32FI",
+                      "name": "b7",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KGqiW",
+                      "name": "b8",
+                      "width": 4,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PoLD9",
+                      "name": "b9",
+                      "width": 4,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IF1C0",
+                      "name": "b10",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zEwZx",
+                      "name": "b11",
+                      "width": 3,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8XV4c",
+                      "name": "b12",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "b69W1",
+                      "name": "b13",
+                      "width": 5,
+                      "height": 58,
+                      "fill": "#000000ff"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "IodS3",
+                      "name": "b14",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qDCEE",
+                      "name": "b15",
+                      "width": 4,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CeMZq",
+                      "name": "b16",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cgXJz",
+                      "name": "b17",
+                      "width": 4,
+                      "height": 58,
+                      "fill": "#000000"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yJhfw",
+                      "name": "b18",
+                      "width": 2,
+                      "height": 58,
+                      "fill": "#000000"
                     }
                   ]
                 },
