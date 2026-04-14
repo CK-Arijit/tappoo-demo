@@ -12495,6 +12495,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -12502,6 +12503,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "HD4YB",
+                      "name": "i1",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "ELTny",
@@ -13267,6 +13279,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -13274,6 +13287,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "vKdS5",
+                      "name": "i2",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "CCbdl",
@@ -15128,6 +15152,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -15135,6 +15160,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "fcoRi",
+                      "name": "i3",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "XEyhp",
@@ -16191,6 +16227,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -16198,6 +16235,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "1nIm1",
+                      "name": "i4",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "QtaGb",
@@ -17230,6 +17278,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -17237,6 +17286,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "q50eO",
+                      "name": "i5",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "Q3pSu",
@@ -18266,6 +18326,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -18273,6 +18334,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "J6P92",
+                      "name": "i6",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "fyNjt",
@@ -19369,6 +19441,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -19376,6 +19449,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "CndqY",
+                      "name": "i7",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "4E5Mr",
@@ -20472,6 +20556,7 @@
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -20479,6 +20564,17 @@
                   "justifyContent": "center",
                   "alignItems": "center",
                   "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Xsvcb",
+                      "name": "i8",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
                     {
                       "type": "text",
                       "id": "XJjHl",
@@ -21462,11 +21558,12 @@
                 },
                 {
                   "type": "frame",
-                  "id": "jt4Ij",
+                  "id": "QQLf8",
                   "name": "Tap to view card",
                   "width": "fill_container",
                   "fill": "#FFFFFF",
                   "cornerRadius": 999,
+                  "gap": 6,
                   "padding": [
                     10,
                     14
@@ -21475,8 +21572,18 @@
                   "alignItems": "center",
                   "children": [
                     {
+                      "type": "icon_font",
+                      "id": "ZBFGD",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "credit_card",
+                      "iconFontFamily": "Material Symbols Rounded",
+                      "weight": 550,
+                      "fill": "#1D6DB1"
+                    },
+                    {
                       "type": "text",
-                      "id": "X9NMm",
+                      "id": "W9WY0",
                       "name": "btnText",
                       "fill": "#1D6DB1",
                       "content": "Tap to view card",
@@ -22343,9 +22450,9 @@
                   "id": "u6xCQ",
                   "name": "barcode",
                   "width": "fill_container",
-                  "height": 85,
+                  "height": 102,
                   "fill": "#FFFFFF",
-                  "cornerRadius": 6,
+                  "cornerRadius": 8,
                   "stroke": {
                     "thickness": 1,
                     "fill": "#E1E8F0"
@@ -22353,7 +22460,6 @@
                   "gap": 1,
                   "padding": 8,
                   "justifyContent": "center",
-                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
@@ -22457,7 +22563,7 @@
                       "name": "bar4",
                       "width": 5,
                       "height": 58,
-                      "fill": "#000000ff"
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
@@ -22585,7 +22691,7 @@
                       "name": "bar4",
                       "width": 5,
                       "height": 58,
-                      "fill": "#000000ff"
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
@@ -22833,7 +22939,7 @@
                       "name": "b13",
                       "width": 5,
                       "height": 58,
-                      "fill": "#000000ff"
+                      "fill": "#000000"
                     },
                     {
                       "type": "frame",
@@ -22874,6 +22980,41 @@
                       "width": 2,
                       "height": 58,
                       "fill": "#000000"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jYEsB",
+                      "layoutPosition": "absolute",
+                      "x": 8,
+                      "y": 68,
+                      "name": "barcodeDigits",
+                      "fill": "#111111",
+                      "textGrowth": "fixed-width",
+                      "width": 294,
+                      "content": "4 89572 01736 4",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "72YkX",
+                      "layoutPosition": "absolute",
+                      "x": 8,
+                      "y": 84,
+                      "name": "barcodeHint",
+                      "fill": "#5F7388",
+                      "textGrowth": "fixed-width",
+                      "width": 294,
+                      "content": "Scan at checkout for points & digital receipts",
+                      "lineHeight": 1.2,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.15
                     }
                   ]
                 },
