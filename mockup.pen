@@ -43486,91 +43486,6 @@
         },
         {
           "type": "frame",
-          "id": "NLdRZ",
-          "name": "contentChangeSubmitted",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": 16,
-          "padding": [
-            8,
-            24,
-            120,
-            24
-          ],
-          "justifyContent": "center",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "JWf29",
-              "width": 84,
-              "height": 84,
-              "fill": "#E7F7EE",
-              "cornerRadius": 42,
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "8Uzhr",
-                  "width": 44,
-                  "height": 44,
-                  "iconFontName": "check_circle",
-                  "iconFontFamily": "Material Symbols Rounded",
-                  "weight": 600,
-                  "fill": "#169B54"
-                }
-              ]
-            },
-            {
-              "type": "text",
-              "id": "KYy21",
-              "fill": "$text-strong",
-              "content": "Change request has been sent",
-              "fontFamily": "Inter",
-              "fontSize": 24,
-              "fontWeight": "700"
-            },
-            {
-              "type": "text",
-              "id": "H48ZY",
-              "fill": "$text-body",
-              "textGrowth": "fixed-width",
-              "width": "fill_container",
-              "content": "You will be notified once it is verified by the backend team.",
-              "textAlign": "center",
-              "fontFamily": "Inter",
-              "fontSize": 14,
-              "fontWeight": "600"
-            },
-            {
-              "type": "frame",
-              "id": "xq9F2",
-              "width": "fill_container",
-              "fill": "$brand-deep",
-              "cornerRadius": 16,
-              "padding": [
-                14,
-                16
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "AgxG1",
-                  "fill": "#FFFFFF",
-                  "content": "Back to Profile",
-                  "fontFamily": "Inter",
-                  "fontSize": 15,
-                  "fontWeight": "700"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
           "id": "c1Bdw",
           "layoutPosition": "absolute",
           "x": 0,
@@ -43818,6 +43733,92 @@
                       "letterSpacing": 0.5
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NLdRZ",
+          "name": "contentChangeSubmitted",
+          "width": "fill_container",
+          "height": 706,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            8,
+            24,
+            120,
+            24
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JWf29",
+              "width": 84,
+              "height": 84,
+              "fill": "#E7F7EE",
+              "cornerRadius": 42,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "8Uzhr",
+                  "width": 44,
+                  "height": 44,
+                  "iconFontName": "check_circle",
+                  "iconFontFamily": "Material Symbols Rounded",
+                  "weight": 600,
+                  "fill": "#169B54"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "KYy21",
+              "fill": "$text-strong",
+              "content": "Change request has been sent",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "H48ZY",
+              "fill": "$text-body",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You will be notified once it is verified by the backend team.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "xq9F2",
+              "width": "fill_container",
+              "fill": "$brand-deep",
+              "cornerRadius": 16,
+              "padding": [
+                14,
+                16
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AgxG1",
+                  "fill": "#FFFFFF",
+                  "content": "Back to Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "700"
                 }
               ]
             }
@@ -44662,6 +44663,7 @@
           "id": "Ijz4P",
           "name": "contentTransferSubmitted",
           "width": "fill_container",
+          "height": 707,
           "layout": "vertical",
           "gap": 16,
           "padding": [
@@ -46344,6 +46346,7 @@
           "id": "iWhMM",
           "name": "contentFeedbackSubmitted",
           "width": "fill_container",
+          "height": 707,
           "layout": "vertical",
           "gap": 16,
           "padding": [
