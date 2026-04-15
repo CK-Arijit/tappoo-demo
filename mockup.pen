@@ -24793,7 +24793,7 @@
     {
       "type": "frame",
       "id": "6eyGB",
-      "x": -1770,
+      "x": -2252,
       "y": -7144,
       "name": "03 Transactions - Filtered Results",
       "clip": true,
@@ -31804,8 +31804,8 @@
     {
       "type": "frame",
       "id": "tscwM",
-      "x": -1125,
-      "y": -8236,
+      "x": -1787,
+      "y": -7144,
       "name": "03 Transactions - List",
       "clip": true,
       "width": 390,
@@ -33140,33 +33140,84 @@
                       "type": "frame",
                       "id": "0yjAb",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
                           "id": "WZEfm",
-                          "fill": "#627893",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "srjQ7",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "RTsUr",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "c7ZRg",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "0MXsl",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "a3y5a",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -33174,33 +33225,85 @@
                       "type": "frame",
                       "id": "0SUz5",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
                           "id": "Uj85t",
-                          "fill": "#627893",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "7Np4M",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "XQRz3",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Y68sh",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "gLBZz",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "uQk0L",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -34350,75 +34453,179 @@
                 },
                 {
                   "type": "frame",
-                  "id": "XM70j",
+                  "id": "vmJPl",
+                  "name": "copyDaN3O",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "Uudyv",
+                      "id": "3SkfB",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "lITOl",
-                          "fill": "#627893",
+                          "id": "tZzJn",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "bPDyO",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "HkTBk",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lETKZ",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "7YsWc",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "pbeSJ",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "awNJG",
+                      "id": "qSKTa",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "YoPfP",
-                          "fill": "#627893",
+                          "id": "9nE5W",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "CncZP",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "w8RMA",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "W6ybQ",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "SeYOo",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "svXqP",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -35248,75 +35455,179 @@
                 },
                 {
                   "type": "frame",
-                  "id": "IG944",
+                  "id": "Syozj",
+                  "name": "copySrbi6",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "10u5S",
+                      "id": "0T0rA",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "nIOL5",
-                          "fill": "#627893",
+                          "id": "JfPoI",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "SEuKK",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "KaMjq",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KdHo0",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "N9zn7",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "5xa43",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "5noWU",
+                      "id": "CTBRn",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "venxI",
-                          "fill": "#627893",
+                          "id": "pSl7u",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "5z7Um",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "d6dNb",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "IDHTv",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "R2uDs",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "9hp72",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -35945,75 +36256,179 @@
                 },
                 {
                   "type": "frame",
-                  "id": "WTPGD",
+                  "id": "xf3ze",
+                  "name": "copy3QTzF",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "3ZKo9",
+                      "id": "pi5p0",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "MPXAl",
-                          "fill": "#627893",
+                          "id": "UBWvq",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "6EoKt",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "UZTqH",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "4iPeu",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "UrCKr",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "w16Mb",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "1P7Q7",
+                      "id": "asaMt",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "8elpW",
-                          "fill": "#627893",
+                          "id": "AWpNJ",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "tYdhy",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "2Y5IA",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KnRtQ",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "QMWXm",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "sEByr",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -36687,75 +37102,179 @@
                 },
                 {
                   "type": "frame",
-                  "id": "pSAyv",
+                  "id": "g2MkG",
+                  "name": "copyOcsue",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "SJTXZ",
+                      "id": "S5xHz",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "Mbfnd",
-                          "fill": "#627893",
+                          "id": "EgWC2",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "b7tL7",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "6ZQjx",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "XnMgN",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "8lQ5S",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "7HGvU",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "4BizR",
+                      "id": "LKCOq",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "MtdVG",
-                          "fill": "#627893",
+                          "id": "mvI3X",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "jFTsg",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "eOm33",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vSMd7",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "D6Blj",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "mdDKB",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -37388,75 +37907,179 @@
                     },
                     {
                       "type": "frame",
-                      "id": "xFnQS",
+                      "id": "0hmVt",
+                      "name": "copy2o7Ds",
                       "width": "fill_container",
                       "gap": 8,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "1OJvv",
+                          "id": "TZUkZ",
                           "width": "fill_container",
-                          "fill": "#FFFFFF",
-                          "cornerRadius": 14,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 180,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#EFFFF9",
+                                "position": 0
+                              },
+                              {
+                                "color": "#F7FFFC",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 16,
                           "stroke": {
                             "thickness": 1,
-                            "fill": "#D7E9F5"
+                            "fill": "#BFEBDD"
                           },
                           "layout": "vertical",
-                          "gap": 3,
+                          "gap": 8,
                           "padding": 12,
                           "children": [
                             {
                               "type": "text",
-                              "id": "MvaJI",
-                              "fill": "#627893",
+                              "id": "j1vK4",
+                              "fill": "#0B7A60",
                               "content": "Lifetime Earnings",
                               "fontFamily": "Inter",
                               "fontSize": 11,
                               "fontWeight": "700"
                             },
                             {
-                              "type": "text",
-                              "id": "Ab7rI",
-                              "fill": "#173251",
-                              "content": "3,860 pts",
-                              "fontFamily": "Inter",
-                              "fontSize": 18,
-                              "fontWeight": "700"
+                              "type": "frame",
+                              "id": "G2kdL",
+                              "name": "earningsRow",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Sf9uH",
+                                  "name": "earningsIconBg",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#169B79",
+                                  "cornerRadius": 10,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "0kUaD",
+                                      "name": "earningsIcon",
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "arrow-up-right",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FFFFFF"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "K65Cb",
+                                  "name": "earningsValue",
+                                  "fill": "#0E6F59",
+                                  "content": "3,860 pts",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 20,
+                                  "fontWeight": "800"
+                                }
+                              ]
                             }
                           ]
                         },
                         {
                           "type": "frame",
-                          "id": "Mm9T0",
+                          "id": "bfUZa",
                           "width": "fill_container",
-                          "fill": "#FFFFFF",
-                          "cornerRadius": 14,
+                          "fill": {
+                            "type": "gradient",
+                            "gradientType": "linear",
+                            "enabled": true,
+                            "rotation": 180,
+                            "size": {
+                              "height": 1
+                            },
+                            "colors": [
+                              {
+                                "color": "#FFF7EC",
+                                "position": 0
+                              },
+                              {
+                                "color": "#FFFDF8",
+                                "position": 1
+                              }
+                            ]
+                          },
+                          "cornerRadius": 16,
                           "stroke": {
                             "thickness": 1,
-                            "fill": "#D7E9F5"
+                            "fill": "#F7D9B0"
                           },
                           "layout": "vertical",
-                          "gap": 3,
+                          "gap": 8,
                           "padding": 12,
                           "children": [
                             {
                               "type": "text",
-                              "id": "Cxk99",
-                              "fill": "#627893",
+                              "id": "yrYf5",
+                              "fill": "#B56A12",
                               "content": "Lifetime Spends",
                               "fontFamily": "Inter",
                               "fontSize": 11,
                               "fontWeight": "700"
                             },
                             {
-                              "type": "text",
-                              "id": "5TERx",
-                              "fill": "#173251",
-                              "content": "2,620 pts",
-                              "fontFamily": "Inter",
-                              "fontSize": 18,
-                              "fontWeight": "700"
+                              "type": "frame",
+                              "id": "BgMCT",
+                              "name": "spendsRow",
+                              "gap": 6,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "O1Z4b",
+                                  "name": "spendsIconBg",
+                                  "width": 20,
+                                  "height": 20,
+                                  "fill": "#F2A33A",
+                                  "cornerRadius": 10,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon_font",
+                                      "id": "OGHhB",
+                                      "name": "spendsIcon",
+                                      "rotation": -90.07393838995439,
+                                      "width": 14,
+                                      "height": 14,
+                                      "iconFontName": "arrow-down-right",
+                                      "iconFontFamily": "lucide",
+                                      "fill": "#FFFFFF"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "EnPmM",
+                                  "name": "spendsValue",
+                                  "fill": "#A65E0E",
+                                  "content": "2,620 pts",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 20,
+                                  "fontWeight": "800"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -39043,75 +39666,179 @@
                 },
                 {
                   "type": "frame",
-                  "id": "N5hkn",
+                  "id": "aeNID",
+                  "name": "copyCz7ek",
                   "width": "fill_container",
                   "gap": 8,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "lP8Pp",
+                      "id": "75PvZ",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#EFFFF9",
+                            "position": 0
+                          },
+                          {
+                            "color": "#F7FFFC",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#BFEBDD"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "XEY8j",
-                          "fill": "#627893",
+                          "id": "Al5rU",
+                          "fill": "#0B7A60",
                           "content": "Lifetime Earnings",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "U5it5",
-                          "fill": "#173251",
-                          "content": "3,860 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "RcmdQ",
+                          "name": "earningsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fj2og",
+                              "name": "earningsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#169B79",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "LENZO",
+                                  "name": "earningsIcon",
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-up-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "YA2mL",
+                              "name": "earningsValue",
+                              "fill": "#0E6F59",
+                              "content": "3,860 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "Ptea2",
+                      "id": "P4wap",
                       "width": "fill_container",
-                      "fill": "#FFFFFF",
-                      "cornerRadius": 14,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 180,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#FFF7EC",
+                            "position": 0
+                          },
+                          {
+                            "color": "#FFFDF8",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 16,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#D7E9F5"
+                        "fill": "#F7D9B0"
                       },
                       "layout": "vertical",
-                      "gap": 3,
+                      "gap": 8,
                       "padding": 12,
                       "children": [
                         {
                           "type": "text",
-                          "id": "L4Xu3",
-                          "fill": "#627893",
+                          "id": "tGWCN",
+                          "fill": "#B56A12",
                           "content": "Lifetime Spends",
                           "fontFamily": "Inter",
                           "fontSize": 11,
                           "fontWeight": "700"
                         },
                         {
-                          "type": "text",
-                          "id": "1WmWL",
-                          "fill": "#173251",
-                          "content": "2,620 pts",
-                          "fontFamily": "Inter",
-                          "fontSize": 18,
-                          "fontWeight": "700"
+                          "type": "frame",
+                          "id": "QmB49",
+                          "name": "spendsRow",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "5EaDZ",
+                              "name": "spendsIconBg",
+                              "width": 20,
+                              "height": 20,
+                              "fill": "#F2A33A",
+                              "cornerRadius": 10,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon_font",
+                                  "id": "4Isrj",
+                                  "name": "spendsIcon",
+                                  "rotation": -90.07393838995439,
+                                  "width": 14,
+                                  "height": 14,
+                                  "iconFontName": "arrow-down-right",
+                                  "iconFontFamily": "lucide",
+                                  "fill": "#FFFFFF"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "rrSp2",
+                              "name": "spendsValue",
+                              "fill": "#A65E0E",
+                              "content": "2,620 pts",
+                              "fontFamily": "Inter",
+                              "fontSize": 20,
+                              "fontWeight": "800"
+                            }
+                          ]
                         }
                       ]
                     }
