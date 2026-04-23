@@ -49216,6 +49216,26 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dWGLG",
+                  "layoutPosition": "absolute",
+                  "x": 298,
+                  "y": 7,
+                  "name": "birdLogo",
+                  "width": 40,
+                  "height": 40,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./tappoo-birds.png",
+                    "mode": "fit"
+                  },
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1
+                  }
                 }
               ]
             },
@@ -83613,7 +83633,7 @@
                           "type": "text",
                           "id": "MFCWl",
                           "fill": "$text-body",
-                          "content": "Schedule at",
+                          "content": "Scheduled at",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "700"
